@@ -1,6 +1,6 @@
 {
-  "name": "mo-ui-toolkit-sample-new",
-  "version": "0.0.1",
+  "name": "mo-ui-toolkit-sample-new-new",
+  "version": "0.0.4",
   "description": "mo-ui-toolkit",
   "scripts": {
     "rollup": "rollup -c",
