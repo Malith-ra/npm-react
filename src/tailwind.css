@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@300;700;900&display=swap);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-sm;
+  }
+}
+
+.switch-root[data-state="checked"] {
+  background-color: #ed1c24;
+  border-radius: 15px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.switch-root[data-state="unchecked"] {
+  background: #e0e0e0;
+  border-radius: 15px;
+}
+
+.checkbox-root[data-state="checked"] {
+  background-color: #ed1c24;
+}
+
+.checkbox-root[data-state="unchecked"] {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.tab-trigger[data-state="active"] {
+  background: #ffffff;
+  border-bottom: 1px solid #ed1c24;
+}
